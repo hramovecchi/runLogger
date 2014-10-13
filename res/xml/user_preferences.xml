@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+  <PreferenceCategory
+            android:title="@string/dialog_based_preferences">
+
+        <EditTextPreference
+                android:key="editname_preference"
+                android:title="@string/title_editname_preference"
+                android:summary="@string/summary_editname_preference"
+                android:dialogTitle="@string/dialog_title_editname_preference" />
+                
+        <EditTextPreference
+        		android:key="editmail_preference"
+        		android:title="@string/title_editmail_preference"
+        		android:summary="@string/summary_editmail_preference"
+        		android:dialogTitle="@string/dialog_title_editmail_preference" />
+        		
+        <Preference
+        		android:key="default_recipient_email"
+                android:title="@string/title_defaultRecipientEmail_preference"
+                android:summary="@string/summary_defaultRecipientEmail_preference">
+        </Preference>
+        		
+        <ListPreference
+                android:key="lengthUnit_list_preference"
+                android:title="@string/title_selectLengthUnit_preference"
+                android:summary="@string/summary_lengthUnit_preference"
+                android:entries="@array/entries_lengthUnit_list_preference"
+                android:entryValues="@array/entryValues_lengthUnit_list_preference"
+                android:dialogTitle="@string/dialog_title_selectLengthUnit_preference" />
+                
+   </PreferenceCategory>
+</PreferenceScreen>

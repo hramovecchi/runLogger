@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.runLogger"
+      android:versionCode="1"
+      android:versionName="1.0">
+	<uses-permission android:name="android.permission.READ_CONTACTS"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+	
+	<uses-feature
+	  android:glEsVersion="0x00020000"
+	  android:required="true"/>
+
+	<permission
+          android:name="com.runLogger.permission.MAPS_RECEIVE"
+          android:protectionLevel="signature"/>
+        <uses-permission android:name="com.runLogger.permission.MAPS_RECEIVE"/>
+
+    <application android:icon="@drawable/icon" android:label="@string/appName" android:allowBackup="true">
+        <uses-library android:name="com.google.android.maps" />
+        
+        <activity android:name=".activity.runEntry.NewValueEntryActivity"
+        	  android:label="@string/appName">
+        	  <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+           	  </intent-filter>
+        </activity>
+        
+        <activity android:name=".setup.UserPreferences" android:label="@string/userSetupView"/>
+        
+        <activity android:name=".setup.DefaultRecipientEmailSelection" android:label="@string/userSetupView"/>
+        
+        <activity android:name=".activity.history.HistoryList" android:label="@string/historyView"/>
+        
+        <activity android:name=".activity.runEntry.ValueEntryActivity" android:label="@string/editLengthEntryView"/>
+        
+        <activity android:name=".activity.location.LocationActivity" android:label="@string/runView"/>
+        
+        <activity android:name=".activity.location.RunLocationsList" android:label="@string/runView"/>
+        
+        <activity android:name=".activity.location.MapLocationActivity" android:label="@string/runView"/>
+        
+        <activity android:name=".activity.share.ShareHistoryActivity" android:label="@string/shareView"/>
+        
+        <service android:name=".service.LocationService" android:process=":myLocationServiceProcess"></service>
+        
+        <meta-data
+		    android:name="com.google.android.maps.v2.API_KEY"
+		    android:value="AIzaSyADf6417WaY8Q9h7EGVzEqCIq3cSVKXTMo"/>
+        
+    </application>
+</manifest>

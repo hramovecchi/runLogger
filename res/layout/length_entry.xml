@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView android:id="@+id/dateLabel" 
+    	android:layout_width="fill_parent" android:layout_height="wrap_content" 
+    	android:textSize="30sp" android:gravity="center" android:textColor="#ffffffff" android:text="@string/dateSliderTitle"></TextView>
+    <Button android:id="@+id/pickDate"
+    	android:layout_height="wrap_content" android:textSize="30sp" 
+    	android:layout_width="fill_parent" android:background="@drawable/date_button" 
+    	style="@style/ButtonText" android:text="Change the date"></Button>
+    <TextView android:id="@+id/textView1"
+    	android:layout_height="wrap_content" android:layout_width="fill_parent" 
+		android:textSize="30sp" android:gravity="center" android:textColor="#ffffff" android:text="Length"></TextView>
+    <EditText android:id="@+id/editWeight" 
+    	android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="number|numberSigned|numberDecimal"></EditText>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:gravity="bottom" 
+    	android:layout_width="match_parent" 
+    	android:layout_height="match_parent">
+    	 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	    	android:orientation="horizontal"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="50dip"
+	    	android:id="@+id/buttonLayout"
+	    	style="@android:style/ButtonBar">
+	    	
+			<Button android:id="@+id/button1" 
+				android:layout_height="wrap_content" android:layout_width="0dip"
+				android:layout_weight="1" android:text="Save" />
+			<Button android:id="@+id/button2"
+				android:layout_height="wrap_content" android:layout_width="0dip" 
+				android:layout_weight="1" android:text="Delete row" />
+		</LinearLayout>
+	</LinearLayout>    
+</LinearLayout>

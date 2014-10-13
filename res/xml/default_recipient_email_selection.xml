@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory
+            android:title="@string/defaultRecipientEmailView">
+	  	<Preference android:title="Myself" android:key="myselfpreference"/>
+	    <Preference android:title="From contacts" android:key="fromcontactspreferences"/>
+	    <Preference android:title="Create new contact" android:key="createnewcontactpreference"/>
+  </PreferenceCategory>
+</PreferenceScreen>

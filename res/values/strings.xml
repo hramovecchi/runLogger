@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="appName">Run Logger</string>
+    <string name="logLengthView">Log New Run</string>
+    <string name="setupView">Run Logger Setup</string>
+    <string name="userSetupView">User Setup</string>
+    <string name="defaultRecipientEmailView">User Setup / Default Recipient E-mail</string>
+    <string name="historyView">Run Logger History</string>
+    <string name="editLengthEntryView">Run Logger History / Edit Run Entry</string>
+    <string name="shareView">Share Run Logs</string>
+    <string name="runView">Run Location</string>
+    
+    <string name="myName">Name</string>
+    <string name="myEmail">E-mail</string>
+    <string name="defaultRecipientEmail">Default Recipient E-mail</string>
+    <string name="lengthUnit">Length Unit</string>
+    
+    <string name="miles">Miles</string>
+    <string name="kilometers">Kilometers</string>
+    <string name="mileUnit">in Miles</string>
+    <string name="kilometerUnit">in Kilometers</string>
+    <string name="selectRecipient">Select a default Recipient E-mail</string>
+    
+    <string name ="menu_setup">Setup</string>
+    <string name ="menu_history">History</string>
+    <string name ="menu_share">Share</string>
+    <string name ="menu_run">Run</string>
+    <string name ="history_menu_clear_history">Clear Run History</string>
+    <string name="positiveActionButtonSetup">Save</string>
+    <string name="negativeActionButtonSetup">Exit Setup</string>
+    
+    <string name = "dialog_based_preferences">User Setup</string>
+        
+    <string name = "title_editname_preference">Name</string>
+    <string name = "summary_editname_preference">Name of the user</string>
+    <string name = "dialog_title_editname_preference">Enter you user name</string>
+
+    
+    <string name = "title_editmail_preference">E-mail</string>
+    <string name = "summary_editmail_preference">E-mail of the user</string>
+    <string name = "dialog_title_editmail_preference">Enter you user e-mail</string>
+    
+    <string name = "title_selectLengthUnit_preference">Length Unit</string>
+    <string name = "summary_lengthUnit_preference">Select a length Unit</string>
+    <string name = "dialog_title_selectLengthUnit_preference">Select a length unit</string>
+    
+    <string name = "title_defaultRecipientEmail_preference">Default Recipient E-mail</string>
+    <string name = "summary_defaultRecipientEmail_preference">Select the default recipient e-mail</string>
+    
+    <string name="dateSliderTitle">Date</string>
+    <string name="noLengthHistory">History is empty</string>
+    
+    <string name="mailSubject">Run Logger report</string>
+    
+    <string name="start_receiving_locations">Start receiving Locations</string>
+    <string name="stop_receiving_locations">Stop receiving Locations</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+	<string name="initial_distance">Distance:</string>
+	<string name="save_achievement">Save Achievement</string>
+	<string name="save">Save</string>
+	<string name="save_confirm_title">Confirm Save</string>
+	<string name="save_confirm_dialog">Do you really want to save this achievement?</string>
+	<string name="no_Locations_saved">There are no saved locations for this run</string>
+	<string name="no_route_to_show">There is no route to show for this run</string>
+	<string name="confirm_delete_history">Are you sure you want to clear the length history</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="confirm_delete_entry">Are you sure you want to delete this entry?</string>
+	<string name="insert_valid_length_value">Insert a valid length value.</string>
+	<string name="row_successfully_updated">Row successfully updated.</string>
+	<string name="new_contact">New contact</string>
+	<string name="from_contact">From contact</string>
+	<string name="user_without_email">User created don\'t have a setted email</string>
+	<string name="distance">Distance: </string>
+	
+	<string name="service_started">Location Service started</string>
+	<string name="service_label">Location Service</string> 
+    
+    <style name="ButtonText">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#FFFFFF</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">3dp</item>
+	    <item name="android:textSize">30sp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+	    
+	    
+</resources>
